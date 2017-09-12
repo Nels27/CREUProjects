@@ -1,6 +1,6 @@
-###Welcome to my Research Blog
+Welcome to my Research Blog
 
-##Introduction
+Introduction
 
 
 
