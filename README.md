@@ -27,7 +27,23 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nels27/CREUProjects/blob/master/blog.md). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Check out my blog posts here [repository settings](https://github.com/Nels27/CREUProjects/blob/master/blog.md). It will be updated on a weekly basis.
+
+### Research Lab
+
+
+
+
+### Contact Me
+
+##Email
+You can send me an e-mail at nraphael7@gatech.edu
+
+##LinkedIn
+Click [here](https://www.linkedin.com/in/nelson-raphael-bb0271b6/) to go to my LinkedIn Page.
+
+
+The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
