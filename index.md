@@ -1,7 +1,7 @@
 
-    ##Shape Based Traversal of a Robotic Snake on Uneven Terrain
+    ## Shape Based Traversal of a Robotic Snake on Uneven Terrain
      
-      #Welcome to my research blog website. Explore the different pages and learn about my research project.
+      # Welcome to my research blog website. Explore the different pages and learn about my research project.
       
 
 
