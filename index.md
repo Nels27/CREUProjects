@@ -29,8 +29,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Check out my blog posts here [repository settings](https://github.com/Nels27/CREUProjects/blob/master/blog.md). It will be updated on a weekly basis.
 
-### Research Lab
+## Research Lab
 
-# If you would like to learn more about my research lab please click [here](lab.md)
+### If you would like to learn more about my research lab please click [here](lab.md)
 
-### Contact Me 
+### If you would like to read my blog please click [here](blog.md)
