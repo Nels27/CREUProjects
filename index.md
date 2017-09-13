@@ -1,13 +1,42 @@
-
-    ## Shape Based Traversal of a Robotic Snake on Uneven Terrain
-     
-      # Welcome to my research blog website. Explore the different pages and learn about my research project.
-      
+## Welcome to my Research Blog
 
 
+### Shape Based Traversal of a Robotic Snake on an Uneven Terrain
 
-Click [here](link=) to learn more about me and the laboratory I do research in.
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-Click [here](link=) to figure out how to contact me.
+```markdown
+Syntax highlighted code block
 
-Click [here](link=) to see the latest blog post for this week.
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](blog.md) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Check out my blog posts here [repository settings](https://github.com/Nels27/CREUProjects/blob/master/blog.md). It will be updated on a weekly basis.
+
+### Research Lab
+
+# If you would like to learn more about my research lab please click [here](lab.md)
+
+### Contact Me
+
+## Email
+You can send me an e-mail at nraphael7@gatech.edu
+
+## LinkedIn
+Click [here](https://www.linkedin.com/in/nelson-raphael-bb0271b6/) to go to my LinkedIn Page.
