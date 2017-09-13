@@ -26,7 +26,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](_posts\blog.md) and ![Image](src)
+[Link](_posts\2017-September-11-Genesis.md) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
@@ -37,4 +37,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### If you would like to learn more about my research lab please click [here](lab.md)
 
-### Check out my blog posts [here](_posts\blog.md). It will be updated on a weekly basis.
+### Check out my blog posts [here](_posts\2017-September-11-Genesis.md). It will be updated on a weekly basis.
