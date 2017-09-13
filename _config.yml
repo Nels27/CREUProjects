@@ -1,11 +1,2 @@
 theme: jekyll-theme-midnight
-.
-|-- _config.yml
-|-- _includes/
-|-- _layouts/
-|-- _posts/
-|-- _site/
-|-- about.md    # => http://example.com/about.html
-|-- index.md    # => http://example.com/
-|-- other.md      # => http://example.com/other.html
-└── contact.md  # => http://example.com/contact.html
+
