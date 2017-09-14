@@ -32,5 +32,5 @@ Syntax highlighted code block
 ## Research Lab
 Learn more about my research laboratory [here](lab.md)
 
-###Blog posts
+## Blog posts
  Check out my blog posts [here](Genesis.md). It will be updated on a weekly basis.
