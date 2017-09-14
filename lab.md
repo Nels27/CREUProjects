@@ -8,7 +8,9 @@
 
 Associate Professor in the Electrical and Computer Engineering Department.
 
-#Intelligent Vision and Automation Laboratory
+## My Laboratory
+
+# Intelligent Vision and Automation Laboratory
 
 ![Image](src)
 
