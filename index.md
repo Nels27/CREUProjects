@@ -37,4 +37,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### If you would like to learn more about my research lab please click [here](lab.md)
 
-### Check out my blog posts [here](_posts\2017-09-11-Genesis.md). It will be updated on a weekly basis.
+### Check out my blog posts [here](posts/2017/09/11/Genesis.md). It will be updated on a weekly basis.
