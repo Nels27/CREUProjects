@@ -34,3 +34,9 @@ Learn more about my research laboratory [here](lab.md)
 
 ## Blog posts
  Check out my blog posts [here](Genesis.md). It will be updated on a weekly basis.
+
+## Do you want to know about me?
+Check out my about page [here](about.md).
+
+## Are you trying to contact me?
+Find all my contact info [here](contact.md).
