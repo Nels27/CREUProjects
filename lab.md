@@ -1,17 +1,18 @@
 ### About my Research Lab
 
-## My professor
+## My professor\n
 
-# Dr. Patricio Vela
 
-![Image](src)
+# Dr. Patricio Vela\n
 
-Associate Professor in the Electrical and Computer Engineering Department.
+![Image](src)\n
 
-## My Laboratory
+Associate Professor in the Electrical and Computer Engineering Department.\n
 
-# Intelligent Vision and Automation Laboratory
+## My Laboratory\n
 
-![Image](src)
+# Intelligent Vision and Automation Laboratory\n
 
-Housed in the Technology Square Research Building on the 4th floor and hosts undergraduate and graduate projects focused in Robotics and Automation.
+![Image](src)\n
+
+Housed in the Technology Square Research Building on the 4th floor and hosts undergraduate and graduate projects focused in Robotics and Automation.\n
