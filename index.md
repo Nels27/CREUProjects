@@ -29,12 +29,8 @@ Syntax highlighted code block
 [Link](_posts\2017-09-11-Genesis.md) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
 ## Research Lab
+Learn more about my research laboratory [here](lab.md)
 
-### If you would like to learn more about my research lab please click [here](lab.md)
-
-### Check out my blog posts [here](posts/2017/09/11/Genesis.md). It will be updated on a weekly basis.
+###Blog posts
+ Check out my blog posts [here](posts/2017-09-11-Genesis.md). It will be updated on a weekly basis.
