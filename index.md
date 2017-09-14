@@ -26,11 +26,11 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](_posts\2017-09-11-Genesis.md) and ![Image](src)
+[Link](Genesis.md) and ![Image](src)
 ```
 
 ## Research Lab
 Learn more about my research laboratory [here](lab.md)
 
 ###Blog posts
- Check out my blog posts [here](posts/2017-09-11-Genesis.md). It will be updated on a weekly basis.
+ Check out my blog posts [here](Genesis.md). It will be updated on a weekly basis.
