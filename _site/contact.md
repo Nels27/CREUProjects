@@ -5,7 +5,7 @@ time:
 permalink: contact.md
 
 ---
-## Contact Page
+
 
 ## Email
 You can send me an e-mail at nraphael7@gatech.edu
