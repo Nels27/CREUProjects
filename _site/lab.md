@@ -1,3 +1,10 @@
+---
+
+title: About my Research Lab
+permalink: lab.md
+
+---
+
 ### About my Research Lab
 
 ## My professor

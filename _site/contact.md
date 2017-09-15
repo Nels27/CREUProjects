@@ -1,3 +1,10 @@
+---
+
+title: About my Research Lab
+time:
+permalink: contact.md
+
+---
 ## Contact Page
 
 ## Email
