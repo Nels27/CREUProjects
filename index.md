@@ -39,7 +39,7 @@ Learn more about my research laboratory [here](lab.md)
 
 
 ## Do you want to know about me?
-Check out my about page [here](about.md).
+Check out my about page [here](/_site/about.md).
 
 ## Are you trying to contact me?
 Find all my contact info [here](contact.md).
