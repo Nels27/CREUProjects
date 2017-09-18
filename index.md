@@ -33,7 +33,10 @@ Syntax highlighted code block
 Learn more about my research laboratory [here](lab.md)
 
 ## Blog posts
- Check out my blog posts [here](Genesis.md). It will be updated on a weekly basis.
+ Check out my first blog posts [here](Genesis.md).
+
+ Check out this weeks blog post [here](Rebuild.md)
+
 
 ## Do you want to know about me?
 Check out my about page [here](about.md).
