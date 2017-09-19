@@ -3,8 +3,10 @@
 title: About my Research Lab
 time:
 permalink: about.md
-
 ---
+
+![Image](/pics/Profile pic.jpeg)
+
 ## About Me
 
 My name is Nelson Raphael and I am a fourth year Electrical Engineering major and German minor that attends the Georgia Institute of Technology.
