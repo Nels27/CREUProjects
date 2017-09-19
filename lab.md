@@ -5,7 +5,7 @@
 
 # Dr. Patricio Vela
 
-![Image](src)
+![Image](pics/Dr_Vela.jpg)
 
 Associate Professor in the Electrical and Computer Engineering Department.
 
