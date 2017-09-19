@@ -40,4 +40,4 @@ So originally the snake we were using moved in the x, y, and z directions and th
 
 The image above is what two motors when connected by the aluminum bracket would look like. Each motor is connected in series with the motor in front of it and behind it using a serial 4 pin connection. Some of the advantages of rebuilding it this way give us a robot that is able to articulate over obstacles in the environment better.
 
-![Image](pics/Motor_ID_configuration)
+![Image](pics/Motor_ID_configuration_setup.jpg)
