@@ -33,8 +33,6 @@ Syntax highlighted code block
 Learn more about my research laboratory [here](lab.md)
 
 ## Blog posts
- Check out my first blog post [here](blog.md).
-
  Check out this weeks blog post [here](blog.md)
 
 
