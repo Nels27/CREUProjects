@@ -24,10 +24,10 @@ snk = SnakeModel(d,rot,tailframe);
 %these are merely arbitrary values to illustrate the example
 ```
 
-
-
 ![Image](pics/visual_modeler.png)
 Here is an image of the modeling user interface here.
+
+
 
 
 ## **Reconstruction of the Snake**
