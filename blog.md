@@ -27,6 +27,7 @@ snk = SnakeModel(d,rot,tailframe);
 
 
 ![Image](src)
+I will insert an image of the modeling user interface here.
 
 
 ## **Reconstruction of the Snake**
