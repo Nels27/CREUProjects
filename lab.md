@@ -7,7 +7,7 @@
 
 ![Image](pics/Dr_Vela.jpg)
 
-Associate Professor in the Electrical and Computer Engineering Department. A Mexico City native, he graduated from California Institute of Technology after completing his Bachelor's of Science degree in 1998 and getting his doctorate in 2003. His field of research for his doctorate was geometric nonlinear control androbotics.
+Associate Professor in the Electrical and Computer Engineering Department. A Mexico City native, he graduated from the California Institute of Technology after completing his Bachelor's of Science degree in 1998 and getting his doctorate in 2003. His field of research for his doctorate was geometric nonlinear control androbotics.
 
 Upon completing his doctorate, he pursued post-doctoral research in the computer vison field and became a member of the Georgia Tech ECE Faculty in 2005.
 
@@ -25,6 +25,8 @@ Find out more about him, his publications, patents, awards, and current fields o
 
 ![Image](src)
 
-Housed in the Technology Square Research Building on the 4th floor and hosts undergraduate and graduate projects focused in Robotics and Automation.\n
+Housed in the Technology Square Research Building on the 4th floor and hosts undergraduate and graduate projects focused in Robotics and Automation. This laboratory is managed by Dr. Patricio Vela and is home to many robotics projects. Some of which you can find [here](http://ivalab.gatech.edu/).
+
+Be sure to check out some of the publications while you visit.
 
 Bla Bla
