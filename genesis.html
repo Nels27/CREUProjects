@@ -85,8 +85,25 @@
 
             <p>I can illustrate a little bit more here. So the current closed loop process uses object oriented classes that house the information for the snake, the environment, and other things respectively. Therefore when instantiating the Snake model class object we have to pass in the rotational angles, the displacement between each motor joint that moves in the plane we want, and the tailframe in SE2 notation.</p>
 
-            <p>Placeholder text by
-              <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
+            <code>
+                %MATLAB code
+                d = [50,100,150,200,250,300,350];
+                rot = [0,0,0,0,0,0];
+                tailframe = SE2([0,0],0);
+                snk = SnakeModel(d,rot,tailframe);
+
+                %These are arbitrary values to illustrate a point
+            </code>
+
+            <p>When all of the various classes work together they create this visual interface that models the snake's shape real time using SE2 notation, visual data, and tactile sensing. Below is the result.
+            </p>
+
+            <a href="#">
+            <img class = "img-fluid" src = "img/2_motor_setup_with_bracket.jpg" alt="">
+            </a>
+
+
+            <p> Photographs by
               <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
           </div>
         </div>
