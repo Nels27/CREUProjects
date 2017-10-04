@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Draft Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Snake Shenanigans</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="laboratory.html">Laboratory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/post-bg.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Making sure Snakey Jr. is on his best behavior and an arts and crafts project</h1>
+              <h2 class="subheading">Giving an overview of what the literature review was on, adjusting the new snake to operate with the pre-existing system, and the creation of a new poster.</h2>
+              <span class="meta">Posted by
+                <a href="#">Nelson Raphael</a>
+                on October 4th, 2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <h3>Just because it's a brand new snake doesn't mean the rules have changed.</h3>
+
+                <p>After the hardware portion of the endeavor comes the software side. The bigger overarching goal is to make sure the robotic snake operates in the exact same manner prior to constructing this new one.</p>
+
+                <p>Overall the snake will be slightly shorter which would require changing the fixed link lengths that are taken in as inputs to the Snake Model class. This would like lead to a slight change in the scaling of the model, since it was based on the previous size as well. Based off of the ratio we used during the previous time we should be able to scale it down small enough. Our telltale sign that this is successful will be the proximity the tail end has to the end </p>
+
+            <h2 class="section-heading">Image Processing Changes </h2>
+
+                <p> Specifically based off the ratio between the size of the representation within the graph provided by the tailFrameExtraction script. I anticipate that the links themselves may need to be increased. It may not be exact all the way, however, it should define them close enough for use with the motion primitives.</p>
+
+            <h2 class="section-heading">Motion Primitives Changes</h2>
+
+                <p>This part is extremely crucial, since we have removed the motors on the snake that do not move in the x-y plane we had to create provisions in the code in order to disable the movement and use of those motors. Some of the state machines for the various strategies would require a change on the motor id numbers so that the correct motors are called.</p>
+
+                <p> To give a better example the inch primitive is a 3 part state machine for when it needs to engage the primitive on the front end, tail end, or in the middle of the snake is dependent on the previous construction. I would have to iterate through each step to adjust the motor ids that are called until the motion being executed is the same as previous robot or better. So this would require some video recordings to make comparsions and also on obstacles of varying heights.
+                </p>
+
+            <a href="#">
+              <img class="img-fluid" src="" alt="">
+            </a>
+            <span class="caption text-muted">Caption text</span>
+
+            <p>Placeholder text by
+              <a href="/">Nelson R.</a>. Photographs by
+              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/NRaphael96">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/nelson.raphael.54">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/Nels27">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/nelson-raphael-bb0271b6/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Nelson Raphael</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
