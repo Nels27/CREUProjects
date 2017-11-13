@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Visualizing Snakey's Future Endeavors</title>
+    <title>Snakey knits a blanket</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,11 +61,11 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>Visualizing Snakey's Future Endeavors</h1>
-              <h2 class="subheading">Review of my presentation performance at Technical Research Exhibition and the next steps in the project.</h2>
+              <h1>Snakey knits a blaket</h1>
+              <h2 class="subheading">Threading the tasks of fthe project together.</h2>
               <span class="meta">Posted by
                 <a href="#">Nelson Raphael</a>
-                November 8th, 2017</span>
+                November 13th, 2017</span>
             </div>
           </div>
         </div>
@@ -77,33 +77,22 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h3>How did I measure up?</h3>
+            <h3>It is getting cold outside so it seems like a great time for Snakey to learn to knit a blanket.</h3>
 
-            <p>There were two rounds of judging for the Technical Research Exhibition and I attended the first one. I received the score sheets from the judges and their judging criteria consisted of technical content, the presentation, organization and use of visual aid, and it being project based.</p>
+            <p>Continuing from the visualization aspect of last week's blog post, when we model the motion of the snake we have to make sure each of the tasks in action are threaded together. This way the modeling is as accurate as possible and the decision making can be made as accuately as possible.</p>
 
-            <p>My scoresheets are stored in our research google drive so you can find them <a href="">here</a>.</p>
+            <p>Currently the modeling functions on what is known as a poor man's scheduler where the process is not truly threaded, but in fact it captures an image at a lower frequency than when the motors are commanded to their new position for the motion. As a result the model jumps from pose to pose without a really smooth trajectory. </p>
 
-            <h2 class="section-heading">What did I learn?</h2>
+            <p>There are some obstacles we will have to combat regarding getting the threading to work since we have three tasks. MATLAB, our current programming language of choice limits us to just two threads at a time. Therefore we have to create a pseudo-thread that will operate during the main thread in order for it to work correctly.</p>
 
-            <p>I have a bad habit of using terms and concepts that my audience will not understand. Thus, some of the things I say will not sink in because I have not broken them down. When practicing my presentation I tried to make a habit to first outline the order of topics I would address from the project. Within each of those topics I would try to break down the main concepts into smaller words or simpler terms. After that I made sure I had good transitions from topic to topic as I did a couple of runthroughs.</p>
+            <p>This can be done simply by creating a large while loop for the main thread that has certain conditions (based on the frequencies needed) for the if statements to execute the tasks they refer to. MATLAB is able to execute a timer thread and this will be where the more frequent executions are needed (i.e. the motor commands). </p>
 
-            <p> Facial expressions can be your biggest advantage. Often I gauged the audience's satisfaction or dissatifaction with the facial expressions they made. This way I adjusted on the fly if it seemed like they expressed extreme dissatisfaction or confusion regarding what I was saying.</p>
-
-            <p> I am definitely looking forward to presenting again and will definitely update my poster prior to that. Another addition that would probably help is having some sort of physical model or representation to use with the poster. We would probably 3D print it on a much smaller scale to make it easier to transport. </p>
-
+            <p>Once this is corrected then we can move into creating demo runs that demonstrate each aspect of the project working together.</p>
+            
             <a href="#">
-              <img class="img-fluid" src="img/Draped_Over_Obstacle.jpg" alt="">
+              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
             </a>
             <span class="caption text-muted">Caption text</span>
-
-            <a href="#">
-              <img class="img-fluid" src="img/Draped_Over_Obstacle_Angle2.jpg" alt="">
-            </a>
-            <span class="caption text-muted">Caption text</span>
-
-            <p>Bla Bla</p>
-
-            <p>Bla Bla</p>
 
             <p>Placeholder text by
               <a href="/">Nelson R.</a>. Photographs by
