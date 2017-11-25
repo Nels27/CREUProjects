@@ -77,22 +77,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h3>Under Constructio</h3>
+            <h3>Under Construction...literally because the function is still not finished yet</h3>
 
-            <!---
+            <p>In order to make progress in the project the team has asked for a function to identify where certain links of the snake are located in relation to certain areas of the environment. When approaching problems that require you to code the solution it is good to break it into different parts.</p>
 
-            <p>Bla Bla</p>
+            <p>So when we look at this problem we can break it into the following parts. If we want it to identiy where certain links of the snake are that will be using the foward kinematics of the snake in realtion to the environment. A method to calculate the foward kinematics of the snake given the angles read from the motors from the dynamixel, the location of the tailframe, and the link lengths passed in during the snake model class initialization. Thus not much needs to be done there.</p>
 
-            <p>Bla Bla</p>
+            <p>They also what it in relation to a certain area of the environment. So we know this part will be an environment model method. There already exists a method that takes in the model and plots it. So if we just want a certain area of the environment the same function can be mimiced but also constrained to the measurements of the region.</p>
 
-            <p>Bla Bla</p>
+            <p> Lastly if you want certain links of the snake in relation to certain areas of the environment then you could pick the corresponding x and y value from the foward kinematics potion and subtract that from the region you are observing. Since it is better to make the function as user friendly as possible we could have the values stored in a table with each column corresponding to a specific motor link and each row corresponding to a specific point or obstacle in the region. Then if you just want a specific region or motor link you can index accordingly.</p>
 
-            <h2 class="section-heading">Subheading / Section heading </h2>
+            <h2 class="section-heading">Leaving the drawing board and handling implementation</h2>
 
-            <p>Bla Bla</p>
+            <p>So I have created the structure for the environment method that just grabs a particular region, hence its name being regionGrabber. However, while I was doing a debug I realized the conversion from pixel to length (in mm) is incorrect at least for the x-direction. For MATLAB if you do not have the corresponding x value for each y value it is unable to plot. Once I work through that conversion error then this portion will function.</p>
 
-            <p>Bla Bla</p>
+            <p>The motorLinkGrabber will just require the snake kinematics but to output it into a matrix, which is not difficult at all.</p>
 
+            <!--
             <blockquote class="blockquote">Blockquote here</blockquote>
 
             <p>Bla Bla</p>
@@ -109,7 +110,7 @@
             <p>Bla Bla</p>
 
             <p>Bla Bla</p>
--->
+        -->
             <p>Placeholder text by
               <a href="/">Nelson R.</a>. Photographs by
               <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
