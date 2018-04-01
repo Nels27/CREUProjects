@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>03.09.2018</title>
+    <title>Getting in your face</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,11 +61,11 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>The belly of the beast</h1>
-              <h2 class="subheading">Trying to tie the behaviors together and providing sketches for the snake belly design.</h2>
+              <h1>Getting in your face</h1>
+              <h2 class="subheading">Subheading for blog post.</h2>
               <span class="meta">Posted by
                 <a href="#">Nelson Raphael</a>
-                March 10th, 2018</span>
+                March 31st, 2018</span>
             </div>
           </div>
         </div>
@@ -77,48 +77,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <h3>Sliding around on your stomach can be inefficient.</h3>
+            <h3>It is a pretty good practice to attack your problems directly or head on.</h3>
 
-            <p>However, this is the main method for snake locomotion and various environments. About two weeks ago my group partners pointed out to me how the lack of panels on the bottom of each motor link might be causing it to be getting caught on the obstacles as it progresses. So now there is a need to develop a new motor casing that includes a bottom panel.</p>
+            <p>Or at least this is what myself and Ali thought during our working session on Saturday morning. As we work to fully integrate the push primitive behavior into the coordinator Ali and I ran into some minor issues. Specifically within the functionality of the push primitive. Since the motor angles and positions are trained within the state machine of the push primitive then it needs to be changed so that instead it cycles through a set of motor positions over a certain time span and in this case for a specific time index there will be a different motor position.</p>
 
-            <p>Before heading over to solidworks I am going to produce some concept sketches first that the team can vote on during our next meeting.</p>
-<!--            <p>Bla Bla</p>
+            <p>There are examples of this already, since the threaded process requires the caterpillar behavior to function this way.</p>
 
-            <h2 class="section-heading">Almost there</h2>
+            <p>The main parts of this change are that the push primitive state machine will no longer be executing these motions directly on the snake. Instead it will be calculating them within the states and then spitting them back out as a vector for the coordinator to then execute the motion based off of the values in that vector.</p>
 
-            <p>We attempted bringing all the behaviors together. So currently we have the catepillar, climb, pull, and push behavior. Since we are still trying to hit the goal of doing a simple demonstration of run through of the environment this will be an attempt of hitting that milestone. As we get closer and closer we are also trying to implement the use of a chain fitting script for the behvaiors in order to create smoother trajectories.</p>
+            <h2 class="section-heading">Code Block Diagrams </h2>
 
-            <p>Bla Bla</p>
+            <p>Here is a visual representation of what was explained above.</p>
 
-            <blockquote class="blockquote">Blockquote here</blockquote>
-
-            <p>Bla Bla</p>
-
-            <h2 class="section-heading">Subheading / Section heading</h2>
-
-            <p>Bla Bla</p>
--->
-            <a href="#">
-              <img class="img-fluid" src="img/Concept1.png" alt="Concept 1">
+            <a href="https://drive.google.com/open?id=1nl9__3LmCMS41P5uvSjFczJp5vbRH9UM">
+              <img class="img-fluid" src="img/pushPrimitiveCodeBlock.jpg" alt="">
             </a>
-            <span class="caption text-muted">Concept 1</span>
+            <span class="caption text-muted">Current push primitive code block functionality</span>
 
-            <a href="#">
-              <img class="img-fluid" src="img/Concept2.png" alt="">
+            <a href="https://drive.google.com/open?id=1qNudbtWUnxahxMJ6VwjkBAIFU5fDjHat">
+              <img class="img-fluid" src="img/pushPrimitiveCoordinatorCodeBlock.jpg" alt="">
             </a>
-            <span class="caption text-muted">Concept 2</span>
+            <span class="caption text-muted">Future push primitive code block functionality when integrated with the coordinator</span>
 
-            <a href="#">
-              <img class="img-fluid" src="img/Concept3.png" alt="">
-            </a>
-
-            <span class="caption text-muted">Concept 3</span>
-
-<!--
-            <p>Bla Bla</p>
-
-            <p>Bla Bla</p>
--->
             <p>Placeholder text by
               <a href="/">Nelson R.</a>. Photographs by
               <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
